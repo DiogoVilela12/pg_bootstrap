@@ -1,11 +1,6 @@
 :root {
     --cor1: #5E2AAD;
     --cor3: #59427A;
-    --cor4: rgb(201, 201, 201);
-}
-
-.navbar {
-    background-color: var(--cor4);
 }
 
 .dropdown-menu {
@@ -42,4 +37,29 @@
     font-size: 20px;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+#objetivos {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    background-image: linear-gradient(to top,grey, white);
+}
+
+#logo {
+    height: 150px;
+}
+
+#futuros_planos {
+    background-color: grey;
+}
+
+.futuros_planos {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#Texto_Futuros_planos {
+    margin-bottom: 40px;
 }
