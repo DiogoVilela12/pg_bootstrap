@@ -1,0 +1,45 @@
+:root {
+    --cor1: #5E2AAD;
+    --cor3: #59427A;
+    --cor4: rgb(201, 201, 201);
+}
+
+.navbar {
+    background-color: var(--cor4);
+}
+
+.dropdown-menu {
+    background-color: var(--cor4);
+}
+
+#projeto {
+    height: 400px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 15%;
+
+    background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.603)), url('/pg_bootstrap/Sources/pexels-david-mcbee-730547.jpg');
+
+    box-sizing: border-box;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+
+    color: white;
+}
+
+#time {
+    margin-top: 40px;
+}
+
+#img_time {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#texto_time {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
